@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nested-menu"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Patin <payk1230@bk.ru>"]
+readme = "README.md"
+packages = [{include = "nested_menu"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.5"
+django-debug-toolbar = "^3.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
